@@ -1,0 +1,98 @@
+
+
+*{
+  box-sizing: boreder-box;
+}
+
+.Resume {
+	width: 60%;
+	margin: auto;
+}
+
+.Container {
+	width: 100%;
+	margin:auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.Headerpart {
+	border-bottom: 3px solid #7d97ad;
+	padding-bottom: 20px;
+}
+
+.Nameresume {
+	margin:15px 0px 0px 0px;
+	text-align: right;
+	color: #2d3c49;
+	font-size: 50px;
+	font-family: 'Open Sans', sans-serif;
+}
+.Namejob {
+	margin:0;
+	text-align: right;
+	color: #2d3c49;
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.Headerlogo {
+	width:30%;
+	text-align: left;
+}
+
+@media screen and (max-width: 640px) {
+  .Headerlogo {width:100%;
+  text-align: center;
+}
+  }
+
+.Profile {
+	width:70%;
+}
+@media screen and (max-width: 640px) {
+  .Profile {
+  	width:100%;
+    text-align: center;
+}
+.Nameresume, .Namejob
+{
+	text-align:center;
+}
+
+  }
+
+.Profilephoto {
+	margin-top: 30px;
+}
+
+.Feature {
+	color: #7d97ad;
+	font-size: 30px;
+	font-family: 'Open Sans', sans-serif;
+	margin-bottom: 5px;
+}
+
+.Featureproject{
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	
+}
+
+.Featuretitle {
+	margin-top: 5px;
+	margin-bottom:0px;
+    color: #2d3c49;
+	font-size: 30px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+.Featuresite {
+    margin-top: 5px;
+    color: #2d3c49;
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;	
+}
+
